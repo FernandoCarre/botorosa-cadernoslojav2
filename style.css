@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F98DC9;
+}
+
+section {
+    background-color: #94EBFA;
+    width: 600px;
+    margin: 0 auto; /* Auto deixa centralizado, ou melhor, deixa os valores iguais pros dois lados */
+    padding: 0 20px 20px 20px;
+    border: 3px dotted black;
+}
+
+.titulo-blog {
+    color: #FA908E;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 1px 2px 2px black;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.titulo-destaque1 {
+    color: #d3127c;
+}
+
+.titulo-destaque2 {
+    color: #d3145d;
+}
+
+.paragrafo-destaque {
+    color:rgb(6, 68, 201);
+}
+
+img {
+    display: block; /* IMG não é um elemento block, por isso precisa ser definido o valor block para se comportar como tal */
+    margin: 0 auto;
+    max-width: 100%; /* Para não ficar mais larga que o body */
+    border: 2px dotted red;
+}
+
+.footer { /* O ápice da meninice hahaha */
+    background-color: azure;
+    text-align: center;
+    margin: 10% 40%;
+    border: 1px dotted black;
+}
